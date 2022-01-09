@@ -352,7 +352,7 @@
 
 .container-destination{
 	width:90%;
-	height:50%;
+	height:40%;
 	margin:0 auto;
 	display:flex;
 	flex-direction:row;
@@ -360,7 +360,6 @@
 .destination-left{
 	width:66%;
 	height:100%;
-	background-color:red;
 	position:relative;
 	overflow:hidden;
 }
@@ -383,7 +382,6 @@
 .destination-right{
 	width:32%;
 	height:100%;
-	background-color:red;
 	margin-left:2%;
 	position:relative;
 	overflow:hidden;
@@ -401,7 +399,7 @@
 }
 .container-destination1{
 	width:90%;
-	height:50%;
+	height:40%;
 	margin:0 auto;
 	display:flex;
 	flex-direction:row;
@@ -409,7 +407,6 @@
 .destination1-left{
 	width:32%;
 	height:100%;
-	background-color:red;
 	position:relative;
 	overflow:hidden;
 }
@@ -427,7 +424,6 @@
 .destination1-middle{
 	width:32%;
 	height:100%;
-	background-color:red;
 	margin-left:2%;
 	position:relative;
 	overflow:hidden;
@@ -446,7 +442,6 @@
 .destination1-right{
 	width:32%;
 	height:100%;
-	background-color:red;
 	margin-left:2%;
 	position:relative;
 	overflow:hidden;
@@ -670,7 +665,7 @@
 }
 .container-destination{
 	width:90%;
-	height:15%;
+	height:12%;
 	margin:0 auto;
 	display:flex;
 	flex-direction:row;
@@ -678,7 +673,6 @@
 .destination-left{
 	width:66%;
 	height:100%;
-	background-color:red;
 	position:relative;
 	overflow:hidden;
 }
@@ -696,7 +690,6 @@
 .destination-right{
 	width:32%;
 	height:100%;
-	background-color:red;
 	margin-left:2%;
 	position:relative;
 	overflow:hidden;
@@ -714,7 +707,7 @@
 }
 .container-destination1{
 	width:90%;
-	height:15%;
+	height:12%;
 	margin:0 auto;
 	display:flex;
 	flex-direction:row;
@@ -722,7 +715,6 @@
 .destination1-left{
 	width:32%;
 	height:100%;
-	background-color:red;
 	position:relative;
 	overflow:hidden;
 }
@@ -740,7 +732,6 @@
 .destination1-middle{
 	width:32%;
 	height:100%;
-	background-color:red;
 	margin-left:2%;
 	position:relative;
 	overflow:hidden;
@@ -759,7 +750,6 @@
 .destination1-right{
 	width:32%;
 	height:100%;
-	background-color:red;
 	margin-left:2%;
 	position:relative;
 	overflow:hidden;
