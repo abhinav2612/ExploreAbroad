@@ -757,7 +757,7 @@
 	
 }
 	.about-banners{
-		background: url(../images/beech1.jpg);
+		background: url(../images/island.jpeg);
 		height:100vh;
 		background-size:cover;
 		overflow:hidden;
@@ -859,6 +859,7 @@
 .container-cards .cards .hotel{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .para{
 	margin-left:4%;
@@ -890,6 +891,7 @@
 .container-cards .cards .price{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .price-p{
 	margin-left:4%;
@@ -946,6 +948,7 @@
 .container-cards .cards1 .hotel{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .para{
 	margin-left:4%;
@@ -977,6 +980,7 @@
 .container-cards .cards1 .price{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .price-p{
 	margin-left:4%;
@@ -1034,6 +1038,7 @@
 .container-cards .cards2 .hotel{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .para{
 	margin-left:4%;
@@ -1065,6 +1070,7 @@
 .container-cards .cards2 .price{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .price-p{
 	margin-left:4%;
@@ -1125,6 +1131,7 @@
 .container-cards .cards3 .hotel{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .para{
 	margin-left:4%;
@@ -1156,6 +1163,7 @@
 .container-cards .cards3 .price{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .price-p{
 	margin-left:4%;
@@ -1216,6 +1224,7 @@
 .container-cards .cards4 .hotel{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .para{
 	margin-left:4%;
@@ -1247,6 +1256,7 @@
 .container-cards .cards4 .price{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .price-p{
 	margin-left:4%;
@@ -1307,6 +1317,7 @@
 .container-cards .cards5 .hotel{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .para{
 	margin-left:4%;
@@ -1338,6 +1349,7 @@
 .container-cards .cards5 .price{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .price-p{
 	margin-left:4%;

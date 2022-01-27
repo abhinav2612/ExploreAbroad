@@ -481,7 +481,7 @@
 	
 }
 	.about-banners{
-		background: url(../images/beech1.jpg);
+		background: url(../images/ladakh2.jpeg);
 		height:100vh;
 		background-size:cover;
 		overflow:hidden;
@@ -583,6 +583,7 @@
 .container-cards .cards .hotel{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .para{
 	margin-left:4%;
@@ -614,6 +615,7 @@
 .container-cards .cards .price{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .price-p{
 	margin-left:4%;
