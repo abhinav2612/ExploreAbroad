@@ -6,6 +6,27 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
+.fixed{
+	top:50%;
+	position:fixed;
+	transform: rotate(90deg);
+	background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+	transition: all 0.4s;
+	width:140px;
+	text-align:center;
+	margin-left:93.5%;
+}
+.fixed .h4{
+	color:white;
+}
+.fixed .h4 .fixed-link{
+	color:white;
+	text-decoration:none;
+}
+.fixed .h4:hover{
+	color:white;
+	
+}
 .about-banners{
 	background: url(../images/beech.jpg);
 	height:130vh;
@@ -542,7 +563,8 @@
 .mail .send-btn{
 	width:110px;
 	height:50px;
-	background-color:#1e90ff;
+	background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+    z-index:-1;
 	border-radius:3px;
 	border:none;
 	color:white;
@@ -611,7 +633,8 @@
 .testimonial-heading h1{
     font-size: 2.2rem;
     font-weight: 500;
-    background-color: #1e90ff;
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+  transition: all 0.4s;
     color: #ffffff;
     padding: 10px 20px;
 }
@@ -686,6 +709,18 @@
 }
 
 @media screen and (max-width: 768px){
+	.fixed{
+	top:50%;
+	position:fixed;
+	transform: rotate(90deg);
+	background-color:#1e90ff;
+	width:140px;
+	text-align:center;
+	
+}
+.fixed h4{
+	color:white;
+}
 	.about-banners{
 		background: url(../images/beech1.jpg);
 		height:100vh;
