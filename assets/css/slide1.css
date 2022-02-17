@@ -181,11 +181,15 @@
 .include{
 	margin-top:3%;
 }
+.accordion{
+	width:95%;
+}
 
 .right-box1{
 	width:25%;
 	height:100%;
-	background-color:yellow;
+	display:flex;
+	flex-direction:column;
 }
 
 
@@ -286,6 +290,49 @@
 	margin-top:2%;
 }
 
+.p-4.list-group-item.active span{
+	font-size:24px;
+	font-weight:bold;
+}
+.textbox{
+	width:100%;
+	border-bottom:1px solid #a9a9a9;
+	padding: 8px 0;
+  margin: 8px 0;
+}
+.input{
+	border:none;
+	outline:none;
+	margin:4% 0 0 0;
+	width:100%;
+	height:50%;
+}
+textarea{
+	border:none;
+	outline:none;
+	margin:4% 0 0 0;
+	width:100%;
+	height:50%;
+}
+.btn.btn-primary{
+	width:100%;
+	margin-top:3%;
+}
+.org{
+	margin-top:10%;
+}
+.list-group-item .cont{
+	font-size:24px;
+	font-weight:bold;
+	line-height:50px;
+}
+.contact{
+	margin-top:10%;
+}
+.list-group-item .info{
+	
+}
+
 
 @media screen and (max-width: 768px){
 	.fixed{
@@ -299,7 +346,7 @@
 }
 	.about-banners{
 		background: url(../images/sikkim.jpeg);
-		height:100vh;
+		height:70vh;
 		background-size:cover;
 		overflow:hidden;
 		position:relative;
@@ -462,7 +509,7 @@
 }
 .box1 {
 	display:flex;
-	flex-direction:row;
+	flex-direction:column;
 	width:90%;
 	margin:0 auto;
 	height:auto;
@@ -476,7 +523,7 @@
 	width:100%;
 	margin-top:4%;
 }
-/*.include{
+.include{
 	display:flex;
 	flex-direction:column;
 	width:100%;
@@ -487,12 +534,15 @@
 .exclude{
 	width:100%;
 	margin-left:0%;
-}*/
+}
+.accordion{
+	width:100%;
+}
 
 .right-box1{
 	width:100%;
 	height:100%;
-	background-color:yellow;
+	margin-top:5%;
 }
 
 
