@@ -16,7 +16,7 @@
 			<div class="navbar">
 				<nav>
 					<input id="nav-toggle" type="checkbox">
-					<a href="index.html"><img src="./assets/images/Lexiphar Logo.png" class="logo"></a>
+					<a href="index.html"><!--<img src="./assets/images/" class="logo">--></a>
 					<ul>
 						<li><a href="#">HOME</a></li>
 						<li><a href="#">ABOUT US</a></li>
@@ -181,19 +181,19 @@
 						<li class="p-4 list-group-item active" aria-current="true">from &nbsp;<span class="cont">Rs. 30,999</span></li>
 						<li class="list-group-item"><strong>Inquiry</strong></li>
 						<li class="list-group-item">
-							<form class="form">
+							<form class="form" method="post" autocomplete="off" name="inquiry-sheet">
 								<div class="textbox"><input type="text" name="fullname" placeholder="Name" class="input" required></div>
 								<div class="textbox"><input type="email" name="mail" placeholder="Email" class="input" required></div>
 								<div class="textbox"><input type="number" name="contact" placeholder="Phone" class="input" required></div>
-								<div class="textbox"><textarea name="message" rows="3" cols="30" placeholder="Note"></textarea></div>
-								<button type="button" class="btn btn-primary">Send</button>
+								<div class="textbox"><textarea name="message" rows="3" cols="30" placeholder="Note" required></textarea></div>
+								<button button type="submit" name="submit" class="btn btn-primary" value="Send message">Send</button>
 							</form>
 						</li>
 					</ul>
 				</div>
 				<div class="org">
 					<ul class="list-group">
-						<li class="p-3 list-group-item"><span class="cont">Organized By</span><br>Explore Abroad</li>
+						<li class="p-3 list-group-item"><span class="cont">Organized By</span><br><img src="./assets/images/EXPLORELOGO1.png"></li>
 					</ul>
 				</div>
 				<div class="contact">
@@ -247,6 +247,22 @@
 			</div>
 		</div>
 		<br><br>
+		
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+		<script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbx_V3sE_IRtP7V1RsrPhv9MsOTBZ3o_hxf1KRhjXRH_WB8nQK7w3dpQMH5xl5zHfylW/exec'
+            const form = document.forms['inquiry-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => swal("Thanks for Contacting us..!", "We will contact you soon", "success"))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
    </body>
 </html>

@@ -27,9 +27,9 @@
 	line-height:90px;
 }
 .navbar .logo{
-	width:13%;
+	width:15%;
 	margin-left:5%;
-	margin-top:20px;
+	
 }
 .navbar nav ul{
 	float:right;
@@ -674,8 +674,7 @@
 	}
 	.navbar .logo{
 		width:30%;
-		margin-left:10%;
-		margin-top:20px;
+		margin-left:5%;
 	}
 	.navbar nav ul{
 		float:none;
