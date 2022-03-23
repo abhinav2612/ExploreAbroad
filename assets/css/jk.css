@@ -6,8 +6,15 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
+.dropdown{
+	position:absolute;
+	display:none;
+}
+.packages:hover .dropdown{
+	color:black;
+}
 .about-banners{
-	background: url(../images/ladakh2.jpeg);
+	background: url(../images/sikkim.jpeg);
 	height:130vh;
 	width:100%;
 	background-size:cover;
@@ -182,10 +189,6 @@
 	border:1px solid #1f75fe;
 	width:35%;
 	height:15%;
-	color:#1f75fe;
-}
-.btn.btn-outline-primary a{
-	text-decoration:none;
 	color:#1f75fe;
 }
 
@@ -374,6 +377,191 @@
 	height:15%;
 	color:#1f75fe;
 }
+.container-cards .cards3{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	margin-top:2%;
+}
+.container-cards .cards3 .img{
+	width:30%;
+	height:auto;
+	border:1px solid #d4d4d4;
+	position:relative;
+	overflow:hidden;
+}
+.img1card{
+	max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+.img1card:hover{
+	transform: scale(1.1);
+}
+.container-cards .cards3 .hotel{
+	width:45%;
+	height:auto;
+	border:1px solid #d4d4d4;
+}
+.para{
+	margin-left:4%;
+	margin-right:4%;
+	font-size:21px;
+	margin-top:4%;
+}
+.cards-para{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:2%;
+	font-size:18px;
+	color:#6b6b6b;
+}
+.stars{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:2%;
+	color: #f9d71c;
+	letter-spacing:1px;
+}
+.p{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:2%;
+	font-size:16px;
+	color:#6b6b6b;
+}
+.container-cards .cards3 .price{
+	width:25%;
+	height:auto;
+	border:1px solid #d4d4d4;
+}
+.price-p{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:10%;
+	font-size:18px;
+	color:#6b6b6b;
+}
+.light{
+	color: #f9d71c;
+}
+.tag{
+	font-size:22px;
+	color:#000;
+}
+.price-p2{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:3%;
+	font-size:18px;
+	color:#6b6b6b;
+}
+.btn.btn-outline-primary{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:3%;
+	background-color:#fff;
+	border:1px solid #1f75fe;
+	width:35%;
+	height:15%;
+	color:#1f75fe;
+}
+.container-cards .cards4{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	margin-top:2%;
+}
+.container-cards .cards4 .img{
+	width:30%;
+	height:auto;
+	border:1px solid #d4d4d4;
+	position:relative;
+	overflow:hidden;
+}
+.img1card{
+	max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+.img1card:hover{
+	transform: scale(1.1);
+}
+.container-cards .cards4 .hotel{
+	width:45%;
+	height:auto;
+	border:1px solid #d4d4d4;
+}
+.para{
+	margin-left:4%;
+	margin-right:4%;
+	font-size:21px;
+	margin-top:4%;
+}
+.cards-para{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:2%;
+	font-size:18px;
+	color:#6b6b6b;
+}
+.stars{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:2%;
+	color: #f9d71c;
+	letter-spacing:1px;
+}
+.p{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:2%;
+	font-size:16px;
+	color:#6b6b6b;
+}
+.container-cards .cards4 .price{
+	width:25%;
+	height:auto;
+	border:1px solid #d4d4d4;
+}
+.price-p{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:10%;
+	font-size:18px;
+	color:#6b6b6b;
+}
+.light{
+	color: #f9d71c;
+}
+.tag{
+	font-size:22px;
+	color:#000;
+}
+.price-p2{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:3%;
+	font-size:18px;
+	color:#6b6b6b;
+}
+.btn.btn-outline-primary{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:3%;
+	background-color:#fff;
+	border:1px solid #1f75fe;
+	width:35%;
+	height:15%;
+	color:#1f75fe;
+}
+
 
 .mail-container{
 	width:100%;
@@ -484,7 +672,7 @@
 	
 }
 	.about-banners{
-		background: url(../images/ladakh2.jpeg);
+		background: url(../images/sikkim.jpeg);
 		height:100vh;
 		background-size:cover;
 		overflow:hidden;
@@ -674,6 +862,7 @@
 .container-cards .cards1 .hotel{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .para{
 	margin-left:4%;
@@ -705,6 +894,7 @@
 .container-cards .cards1 .price{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .price-p{
 	margin-left:4%;
@@ -762,6 +952,7 @@
 .container-cards .cards2 .hotel{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .para{
 	margin-left:4%;
@@ -793,6 +984,7 @@
 .container-cards .cards2 .price{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .price-p{
 	margin-left:4%;
@@ -825,6 +1017,193 @@
 	width:30%;
 	color:#1f75fe;
 }
+.container-cards .cards3{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	height:auto;
+	margin-top:4%;
+	border:1px solid #d4d4d4;
+}
+.container-cards .cards3 .img{
+	width:100%;
+	height:auto;
+	position:relative;
+	overflow:hidden;
+}
+.img1card{
+	max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+.img1card:hover{
+	transform: scale(1.1);
+}
+.container-cards .cards3 .hotel{
+	width:100%;
+	height:auto;
+	border:none;
+}
+.para{
+	margin-left:4%;
+	margin-right:4%;
+	font-size:18px;
+	margin-top:4%;
+}
+.cards-para{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:2%;
+	font-size:15px;
+	color:#6b6b6b;
+}
+.stars{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:2%;
+	color: #f9d71c;
+	letter-spacing:1px;
+}
+.p{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:2%;
+	font-size:14px;
+	color:#6b6b6b;
+}
+.container-cards .cards3 .price{
+	width:100%;
+	height:auto;
+	border:none;
+}
+.price-p{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:1%;
+	font-size:15px;
+	color:#6b6b6b;
+}
+.light{
+	color: #f9d71c;
+}
+.tag{
+	font-size:18px;
+	color:#000;
+}
+.price-p2{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:2%;
+	font-size:15px;
+	color:#6b6b6b;
+}
+.btn.btn-outline-primary{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:2%;
+	margin-bottom:3%;
+	background-color:#fff;
+	border:1px solid #1f75fe;
+	width:30%;
+	color:#1f75fe;
+}
+.container-cards .cards4{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	height:auto;
+	margin-top:4%;
+	border:1px solid #d4d4d4;
+}
+.container-cards .cards4 .img{
+	width:100%;
+	height:auto;
+	position:relative;
+	overflow:hidden;
+}
+.img1card{
+	max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+.img1card:hover{
+	transform: scale(1.1);
+}
+.container-cards .cards4 .hotel{
+	width:100%;
+	height:auto;
+	border:none;
+}
+.para{
+	margin-left:4%;
+	margin-right:4%;
+	font-size:18px;
+	margin-top:4%;
+}
+.cards-para{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:2%;
+	font-size:15px;
+	color:#6b6b6b;
+}
+.stars{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:2%;
+	color: #f9d71c;
+	letter-spacing:1px;
+}
+.p{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:2%;
+	font-size:14px;
+	color:#6b6b6b;
+}
+.container-cards .cards4 .price{
+	width:100%;
+	height:auto;
+	border:none;
+}
+.price-p{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:1%;
+	font-size:15px;
+	color:#6b6b6b;
+}
+.light{
+	color: #f9d71c;
+}
+.tag{
+	font-size:18px;
+	color:#000;
+}
+.price-p2{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:2%;
+	font-size:15px;
+	color:#6b6b6b;
+}
+.btn.btn-outline-primary{
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:2%;
+	margin-bottom:3%;
+	background-color:#fff;
+	border:1px solid #1f75fe;
+	width:30%;
+	color:#1f75fe;
+}
+
 
 .mail-container{
 	width:100%;

@@ -184,6 +184,10 @@
 	height:15%;
 	color:#1f75fe;
 }
+.btn.btn-outline-primary a{
+	text-decoration:none;
+	color:#1f75fe;
+}
 
 .container-cards .cards1{
 	width:100%;

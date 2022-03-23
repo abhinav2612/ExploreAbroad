@@ -7,7 +7,7 @@
 	font-family: 'Poppins', sans-serif;
 }
 .about-banners{
-	background: url(../images/ladakh2.jpeg);
+	background: url(../images/mauritius.jpeg);
 	height:130vh;
 	width:100%;
 	background-size:cover;
@@ -484,7 +484,7 @@
 	
 }
 	.about-banners{
-		background: url(../images/ladakh2.jpeg);
+		background: url(../images/himachal1.jpg);
 		height:100vh;
 		background-size:cover;
 		overflow:hidden;
@@ -674,6 +674,7 @@
 .container-cards .cards1 .hotel{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .para{
 	margin-left:4%;
@@ -705,6 +706,7 @@
 .container-cards .cards1 .price{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .price-p{
 	margin-left:4%;
@@ -762,6 +764,7 @@
 .container-cards .cards2 .hotel{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .para{
 	margin-left:4%;
@@ -793,6 +796,7 @@
 .container-cards .cards2 .price{
 	width:100%;
 	height:auto;
+	border:none;
 }
 .price-p{
 	margin-left:4%;
