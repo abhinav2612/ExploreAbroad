@@ -6,6 +6,15 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
+.whatsapp{
+	bottom:20px;
+	position:fixed;
+	margin-left:95%;
+}
+.whatsicon{
+	width:90%;
+	margin-right:0;
+}
 .fixed{
 	top:50%;
 	position:fixed;
@@ -1324,4 +1333,14 @@
     .testimonial-heading h1{
         font-size: 1.4rem;
     }
+	.whatsapp{
+	bottom:20px;
+	position:fixed;
+	margin-left:90%;
+	margin-right:5px;
+}
+.whatsicon{
+	width:100%;
+	margin-right:0;
+}
 }
